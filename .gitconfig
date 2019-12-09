@@ -1,0 +1,18 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Matt Jaffe
+	email = jaffemd0125@gmail.com
+
+[alias]
+    st = status
+    co = checkout
+    pr = pull --rebase
+    pf = push --force-with-lease
+    po = push origin
+    rh = reset --hard
+    fu = fetch upstream
+    ru = remote update
+    ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+    ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+    
