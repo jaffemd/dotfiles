@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Matt Jaffe
-	email = jaffemd0125@gmail.com
+	email = matt.jaffe@reverb.com
 
 [alias]
     st = status
@@ -16,3 +16,5 @@
     ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
     ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
     
+[pull]
+    rebase = false
