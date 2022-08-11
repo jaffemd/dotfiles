@@ -6,7 +6,7 @@ export PKG_CONFIG_PATH="/usr/local/opt/openssl@1.1/lib/pkgconfig"
 export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig"
 
 export GITHUB_USER=jaffemd
-export GITHUB_PACKAGE_PULL_TOKEN=eacf07c9a925bdbf7be2f9d84d36eee169779cfe
+export GITHUB_PACKAGE_PULL_TOKEN=XXXX
 
 export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
